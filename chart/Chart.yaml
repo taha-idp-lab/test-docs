@@ -1,0 +1,6 @@
+apiVersion: v2
+name: test-docs
+description: Helm chart for test-docs
+type: application
+version: 0.1.0
+appVersion: "0.1.0"

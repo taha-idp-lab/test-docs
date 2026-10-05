@@ -1,0 +1,9 @@
+site_name: test-docs
+site_description: Service to test docs and CI
+
+nav:
+  - Home: index.md
+  - Runbook: runbook.md
+
+plugins:
+  - techdocs-core

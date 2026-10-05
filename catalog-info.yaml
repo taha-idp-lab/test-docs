@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-docs
+  description: Service to test docs and CI
+  annotations:
+    github.com/project-slug: taha-idp-lab/test-docs
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - python
+    - fastapi
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/team-backend
+  system: idp-demo
