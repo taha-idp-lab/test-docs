@@ -8,6 +8,10 @@ metadata:
     backstage.io/techdocs-ref: dir:.
     backstage.io/kubernetes-id: test-docs
     argocd/app-name: test-docs-dev
+  links:
+    - url: http://localhost:3001/d/fastapi-services?var-service=test-docs
+      title: Grafana dashboard
+      icon: dashboard
   tags:
     - python
     - fastapi
